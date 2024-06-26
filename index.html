@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aperture</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="head">
+        <div class="head-container">
+            <div class="logotype"><img src="/Apture/img/logotype.png"></div>
+            <ul class="head-links">
+               <li><a href="#section2">Business areas</a></li>
+               <li><a href="#section3">Featured images</a></li>
+               <li><a href="">Gear cage</a></li>
+               <li><a href="https://vk.com/zhekichang" target="_blank" id="socialLink">Contact</a></li>
+            </ul>
+            <div class="dropdown-container">
+               <a href="#" class="head-btn" onclick="toggleDropdown()">Get template</a>
+               <div class="dropdown-content" id="dropdownContent">
+                   <a href="#">Login</a>
+                   <a href="#">Register</a>
+               </div>
+           </div>
+        </div>
+    </div>
+    <div class="header-down">
+        <div class="header-box">
+            <div class="header-title">Photographer & Filmmaker</div>
+            <h1>Aperture Studios</h1>
+            <div class="header-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Suspendisse varius enim in eros elementum tristique. 
+                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, 
+                ut commodo diam libero vitae erat. Aenean faucibus nibh et 
+                justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+            </div>
+        </div>
+
+        <div class="line-conf">
+            <div class="line-container">
+                <div class="clock"><img src="/Apture/img/clock.svg">1/2000s</div>
+                <div class="combi"><img src="/Apture/img/combi.svg">f/11</div>          
+                <div class="iso"><img src="/Apture/img/ico.svg">100</div>    
+                <div class="map"><img src="/Apture/img/map.svg">Iceland</div>  
+            </div>
+        </div>
+    </div>
+    <div id="section2" class="rectangle">
+        <div class="rectangle-title">
+            <div class="rect-title">What we do</div>
+            <div class="rect-suptitle">The areas that we're specialized in</div>
+
+            <div class="cards">
+                <div class="card">
+                    <img src="/Apture/img/block1.jpg">
+                    <div class="card-text">
+                        <h1>Product Photography</h1>
+                        Cras commodo consequat orci, in convallis risus egestas non. 
+                        Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.
+                        <br>
+                        <button class="mainbtn" onclick="openNewWindow('https://www.bigcommerce.com/blog/how-to-rock-product-photography-on-a-budget/')">Read More</button>
+                     </div>
+                </div>
+                <div class="card">
+                    <img src="/Apture/img/block2.jpg">
+                    <div class="card-text">
+                        <h1>Architecture Photography</h1>
+                            Aenean porta neque eget consequat fringilla. 
+                            Vestibulum ultrices, orci nec egestas pharetra, 
+                            ligula est semper enim, nec auctor sapien leo nec purus. 
+                            Fusce tincidunt aliquet sapien, sit amet rhoncus leo imperdiet nec.
+                            <br>
+                            <button class="mainbtn" onclick="openNewWindow('https://www.format.com/magazine/resources/photography/architecture-photography')">Read More</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/Apture/img/block3.jpg">
+                    <div class="card-text">
+                        <h1>Drone Photography</h1>
+                        Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.
+                        Duis tristique sed lorem a vestibulum. 
+                        Cras commodo consequat orci, in convallis risus egestas non. 
+                        Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus 
+                        libero ac, cursus quam. <br>
+                        <button class="mainbtn" onclick="openNewWindow('https://www.adorama.com/alc/12-drone-photography-tips/')">Read More</button>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="/Apture/img/block4.jpg">
+                    <div class="card-text">
+                        <h1>Wildlife Photography</h1>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus 
+                        feugiat eros quis consectetur. Morbi neque ex, condimentum 
+                        dapibus congue et, vulputate ut ligula. Vestibulum sit amet 
+                        urna turpis.
+                        <br>
+                        <button class="mainbtn" onclick="openNewWindow('https://www.naturettl.com/wildlife-photography-beginners-tips/')">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="japan" id="section3">
+        <div class="japan-title">
+            <div class="japan-text">
+                <h1>SUNSET AT MONTH FUJI</h1>
+                Duis tristique sed lorem a vestibulum. 
+                Cras commodo consequat orci, in convallis 
+                risus egestas non.
+            </div>
+        </div>
+        <div class="footer">
+            <span><img src="/Apture/img/clock.svg">1''</span>
+            <span><img src="/Apture/img/combi.svg">f/16</span>
+            <span><img src="/Apture/img/ico.svg"> ISO 400</span>
+            <span><img src="/Apture/img/map.svg"> Japan</span>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
